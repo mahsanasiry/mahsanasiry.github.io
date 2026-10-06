@@ -20,7 +20,7 @@ export const site = {
   github: "https://github.com/mahsanasiry",
   role: "Front-End Developer",
 
-  resume: "public/resume.pdf",
+  resume: "/Resume.pdf",
 
   web3formsKey: "5bf7454b-f43b-4cde-9893-4f0e40fe7e84",
 
@@ -34,28 +34,53 @@ export const site = {
 
 export const projects: Project[] = [
   {
-    title: "Bean & Bloom",
+    title: "SkillSwap",
     summary:
-      "A landing page for a small coffee roaster. A sample business, built to show what I can deliver for a local company.",
+      "A peer-to-peer skill exchange platform where people can discover compatible users, compare skills and exchange knowledge without paying for lessons.",
     highlights: [
-      "Responsive layout for phones, tablets and desktops",
-      "Contact form with validation and a spam trap",
-      "SEO basics: metadata, sitemap and structured data",
-      "Accessible navigation: skip link, keyboard support, visible focus",
+      "Search, filter, sort and paginate users by skill, level and availability",
+      "Match scoring to identify compatible skill exchanges",
+      "Profiles, favorites and validated skill-swap requests",
+      "Dashboard and request management with responsive, accessible UI",
+      "Automated tests with Vitest, React Testing Library and axe-core",
+    ],
+    stack: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "TanStack Query",
+      "Zod",
+    ],
+    live: "https://mahsanasiry.github.io/skillswap/",
+    code: "https://github.com/mahsanasiry/skillswap",
+    image: "/projects/skillswap-home.png",
+    imageAlt: "SkillSwap home page showing skill discovery and matching features",
+  },
+  {
+    title: "JobTrail",
+    summary:
+      "A job application tracker designed to keep applications organized, track weekly goals and make follow-ups easier.",
+    highlights: [
+      "Create, edit and manage applications with status, tags, dates and notes",
+      "Weekly application goal with progress tracking and follow-up reminders",
+      "Search, filtering, sorting and dark mode",
+      "CSV export plus validated JSON backup and restore",
+      "Accessible interactions with automated unit tests and data validation",
     ],
     stack: ["Next.js", "TypeScript", "Tailwind CSS"],
-    live: "https://mahsanasiry.github.io/bean-and-bloom/",
-    code: "https://github.com/mahsanasiry/bean-and-bloom",
+    live: "https://mahsanasiry.github.io/jobtrail/",
+    code: "https://github.com/mahsanasiry/jobtrail",
   },
   {
     title: "Taskboard",
     summary:
-      "A Kanban board where tasks move between columns by drag and drop. Everything is saved in the browser.",
+      "A Kanban board where tasks move between columns by drag and drop, with browser-based persistence.",
     highlights: [
-      "Drag and drop built with the native browser API, no library",
+      "Drag and drop built with the native browser API",
       "State handled with useReducer",
-      "Search, priority filter and overdue dates",
-      "A move menu on every card for phones and keyboard users",
+      "Search, priority filtering and overdue dates",
+      "Keyboard-friendly move controls for individual tasks",
     ],
     stack: ["React", "TypeScript", "Tailwind CSS"],
     live: "https://mahsanasiry.github.io/taskboard/",
@@ -64,16 +89,30 @@ export const projects: Project[] = [
   {
     title: "Weather Desk",
     summary:
-      "A weather dashboard that loads live data from a public API: current conditions, an hourly chart and a 7-day forecast.",
+      "A weather dashboard that loads live data from a public API with current conditions, hourly temperatures and a 7-day forecast.",
     highlights: [
-      "Search with live suggestions, debounced and keyboard accessible",
-      "Hourly temperature chart drawn with plain SVG, no chart library",
-      "Loading and error states, and cancelled outdated requests",
-      "Celsius and Fahrenheit, plus saved favorite cities",
+      "Debounced search with live suggestions and keyboard support",
+      "Hourly temperature chart built with plain SVG",
+      "Loading and error states with cancelled outdated requests",
+      "Celsius and Fahrenheit plus saved favorite cities",
     ],
     stack: ["Next.js", "TypeScript", "Open-Meteo API"],
     live: "https://mahsanasiry.github.io/weather-desk/",
     code: "https://github.com/mahsanasiry/weather-desk",
+  },
+  {
+    title: "Bean & Bloom",
+    summary:
+      "A responsive landing page for a fictional coffee roaster, built to demonstrate a polished business website.",
+    highlights: [
+      "Responsive layout for phones, tablets and desktops",
+      "Validated contact form with a spam trap",
+      "SEO basics including metadata, sitemap and structured data",
+      "Accessible navigation with keyboard support and visible focus",
+    ],
+    stack: ["Next.js", "TypeScript", "Tailwind CSS"],
+    live: "https://mahsanasiry.github.io/bean-and-bloom/",
+    code: "https://github.com/mahsanasiry/bean-and-bloom",
   },
 ];
 
