@@ -14,7 +14,7 @@ export interface Project {
 export const site = {
   name: "Mahsa",
   location: "sari, iran",
-  email: "mahsanasiry2009@gmail.com",
+  email: "mahsanasiry0@gmail.com",
   linkedin: "https://www.linkedin.com/in/mahsa-nasiry",
 
   github: "https://github.com/mahsanasiry",
@@ -78,9 +78,8 @@ export const projects: Project[] = [
 ];
 
 export const aboutParagraphs = [
-  // TODO: rewrite these in your own words. Keep it short, honest and specific.
-  "I recently finished my front-end development training and I'm building a portfolio of small, complete projects. Each one is published, responsive and written in TypeScript.",
-  "I'm looking for my first professional role. I learn quickly, I read documentation, and I like turning a rough idea into something people can use.",
+  "I'm a front-end developer focused on building responsive, accessible and user-friendly web applications. I enjoy turning ideas into clean interfaces and paying attention to the details that make a website feel polished.",
+  "I'm currently looking for my first professional front-end opportunity, where I can contribute to real projects, keep learning and grow as a developer. I work with React, Next.js, TypeScript and modern CSS tools, and I enjoy solving problems through practical projects.",
 ];
 
 export const aboutFacts = [
