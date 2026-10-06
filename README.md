@@ -1,28 +1,81 @@
-# Personal portfolio
+# Mahsa Nasiry — Personal Portfolio
 
-My developer portfolio, built with **Next.js 14**, **TypeScript** and **Tailwind CSS** and exported as a static site.
+My personal developer portfolio, built with Next.js, TypeScript and Tailwind CSS.
 
-- Responsive, accessible layout (skip link, keyboard support, visible focus)
-- All content in one file: `src/data/site.ts`
-- Contact form (Web3Forms) with validation and a spam trap
-- SEO basics: metadata, Open Graph tags, sitemap, robots.txt and structured data
-- Deployed with GitHub Actions to GitHub Pages
+🌐 **Live Portfolio:** https://mahsanasiry.github.io/
 
-## Run locally
+## About
 
-```bash
-npm install
-npm run dev
-```
+I'm a junior front-end developer focused on building responsive, accessible and user-friendly web applications.
 
-Open http://localhost:3000.
+My portfolio showcases practical projects built with React, Next.js and TypeScript, with a focus on clean UI, responsive design, accessibility, testing and real-world functionality.
 
-## Edit the content
+## Featured Projects
 
-Open `src/data/site.ts` and change the lines marked `TODO`.
+### SkillSwap
 
-## Deploy
+A peer-to-peer skill exchange platform where users can discover compatible people, compare skills and exchange knowledge.
 
-1. Create a repository named `YOUR-USERNAME.github.io` (the site is then served at `https://YOUR-USERNAME.github.io/`).
-2. Push the code. In **Settings > Pages**, set **Source** to **GitHub Actions**.
-3. Every push to `main` publishes the site.
+**Tech:** Next.js, React, TypeScript, Tailwind CSS, TanStack Query, Zod
+
+- Search, filtering, sorting and pagination
+- Skill-based match scoring
+- User profiles, favorites and dashboards
+- Validated skill-swap requests
+- Responsive and accessible UI
+- Automated testing with Vitest, React Testing Library and axe-core
+- GitHub Actions deployment
+
+🔗 Live: https://mahsanasiry.github.io/skillswap/  
+🔗 Code: https://github.com/mahsanasiry/skillswap
+
+### JobTrail
+
+A job application tracker for organizing applications, tracking weekly goals and managing follow-ups.
+
+**Tech:** Next.js, TypeScript, Tailwind CSS
+
+🔗 Live: https://mahsanasiry.github.io/jobtrail/  
+🔗 Code: https://github.com/mahsanasiry/jobtrail
+
+### Taskboard
+
+A responsive Kanban board with native drag-and-drop interactions, filtering and browser persistence.
+
+**Tech:** React, TypeScript, Tailwind CSS
+
+🔗 Live: https://mahsanasiry.github.io/taskboard/  
+🔗 Code: https://github.com/mahsanasiry/taskboard
+
+### Weather Desk
+
+A weather dashboard using live API data with current conditions, hourly temperatures and a 7-day forecast.
+
+**Tech:** Next.js, TypeScript, Open-Meteo API
+
+🔗 Live: https://mahsanasiry.github.io/weather-desk/  
+🔗 Code: https://github.com/mahsanasiry/weather-desk
+
+## Tech Stack
+
+- HTML
+- CSS
+- JavaScript
+- TypeScript
+- React
+- Next.js
+- Tailwind CSS
+- TanStack Query
+- React Hook Form
+- Zod
+- Vitest
+- React Testing Library
+- Git & GitHub
+- GitHub Actions
+
+## Contact
+
+- 🌐 Portfolio: https://mahsanasiry.github.io/
+- 💼 LinkedIn: https://www.linkedin.com/in/mahsa-nasiry0/
+- 🐙 GitHub: https://github.com/mahsanasiry
+- 📧 Email: mahsanasiry0@gmail.com
